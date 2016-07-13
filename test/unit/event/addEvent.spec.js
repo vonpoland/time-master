@@ -99,6 +99,7 @@ describe('events tests', function () {
             expect(order[2]).to.be('name3');
             expect(order[3]).to.be('name4');
             expect(order[4]).to.be('name5');
+            expect(timeMaster.events.length).to.be(0);
             done();
         }, 10);
     });
@@ -115,6 +116,7 @@ describe('events tests', function () {
 
         setTimeout(() => {
             expect(order.length).to.be(2);
+            expect(timeMaster.events.length).to.be(0);
             done();
         }, 25);
     });
