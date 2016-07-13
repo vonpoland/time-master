@@ -1,6 +1,6 @@
 {
-  "name": "time-master",
-  "version": "1.0.0",
+  "name": "screen4fans-time-master",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

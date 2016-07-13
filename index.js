@@ -1,3 +1,3 @@
-/**
- * Created by marcin on 12.07.16.
- */
+const TimeMaster = require('./lib/timeMaster/timeMaster');
+
+module.exports = TimeMaster;
